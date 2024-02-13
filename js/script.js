@@ -59,7 +59,7 @@ $(document).ready(function () {
         diff = (al1 / 100) * Math.PI * 2;
         context1.clearRect(0, 0, 140, 140);
         context1.beginPath();
-        context1.arc(cw, ch, 85, 0, 2 * Math.PI, false);
+        context1.arc(cw, ch, 60, 0, 2 * Math.PI, false);
         context1.fill();
         context1.strokeStyle = '#FFF';
         context1.stroke();
@@ -81,7 +81,7 @@ $(document).ready(function () {
         diff = (al2 / 100) * Math.PI * 2;
         context2.clearRect(0, 0, 140, 140);
         context2.beginPath();
-        context2.arc(cw, ch, 75, 0, 2 * Math.PI, false);
+        context2.arc(cw, ch, 60, 0, 2 * Math.PI, false);
         context2.fill();
         context2.strokeStyle = '#FFF';
         context2.stroke();
@@ -103,7 +103,7 @@ $(document).ready(function () {
         diff = (al3 / 100) * Math.PI * 2;
         context3.clearRect(0, 0, 140, 140);
         context3.beginPath();
-        context3.arc(cw, ch, 85, 0, 2 * Math.PI, false);
+        context3.arc(cw, ch, 60, 0, 2 * Math.PI, false);
         context3.fill();
         context3.strokeStyle = '#FFF';
         context3.stroke();
@@ -125,7 +125,7 @@ $(document).ready(function () {
         diff = (al4 / 100) * Math.PI * 2;
         context4.clearRect(0, 0, 140, 140);
         context4.beginPath();
-        context4.arc(cw, ch, 70, 0, 2 * Math.PI, false);
+        context4.arc(cw, ch, 60, 0, 2 * Math.PI, false);
         context4.fill();
         context4.strokeStyle = '#FFF';
         context4.stroke();
