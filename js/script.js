@@ -45,8 +45,8 @@ $(document).ready(function () {
     let al3 = 0;
     let al4 = 0;
     let start = 4.72;
-    var cw = context1.canvas.width / 2 + 20;
-    var ch = context1.canvas.height / 2 + 20;
+    var cw = context1.canvas.width / 2;
+    var ch = context1.canvas.height / 2;
     let diff;
 
     let executed = false;
