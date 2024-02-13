@@ -52,7 +52,7 @@ $(document).ready(function () {
     let executed = false;
 
     function progressBar1() {
-        if (al1 >= 66) {
+        if (al1 >= 86) {
             clearTimeout(bar1);
             return;
         }
@@ -74,14 +74,14 @@ $(document).ready(function () {
     }
 
     function progressBar2() {
-        if (al2 >= 61) {
+        if (al2 >= 76) {
             clearTimeout(bar2);
             return;
         }
         diff = (al2 / 100) * Math.PI * 2;
         context2.clearRect(0, 0, 140, 140);
         context2.beginPath();
-        context2.arc(cw, ch, 70, 0, 2 * Math.PI, false);
+        context2.arc(cw, ch, 75, 0, 2 * Math.PI, false);
         context2.fill();
         context2.strokeStyle = '#FFF';
         context2.stroke();
@@ -89,14 +89,14 @@ $(document).ready(function () {
         context2.strokeStyle = '#ff771c';
         context2.lineWidth = 7;
         context2.beginPath();
-        context2.arc(cw, ch, 70, start, diff + start, false);
+        context2.arc(cw, ch, 75, start, diff + start, false);
         context2.stroke();
         canvas2.nextElementSibling.innerText = al2;
         al2++;
     }
 
     function progressBar3() {
-        if (al3 >= 61) {
+        if (al3 >= 86) {
             clearTimeout(bar3);
             return;
         }
@@ -118,7 +118,7 @@ $(document).ready(function () {
     }
 
     function progressBar4() {
-        if (al4 >= 61) {
+        if (al4 >= 71) {
             clearTimeout(bar4);
             return;
         }
