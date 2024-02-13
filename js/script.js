@@ -45,8 +45,8 @@ $(document).ready(function () {
     let al3 = 0;
     let al4 = 0;
     let start = 4.72;
-    var cw = context1.canvas.width / 2;
-    var ch = context1.canvas.height / 2;
+    var cw = context1.canvas.width / 2 + 20;
+    var ch = context1.canvas.height / 2 + 20;
     let diff;
 
     let executed = false;
@@ -59,7 +59,7 @@ $(document).ready(function () {
         diff = (al1 / 100) * Math.PI * 2;
         context1.clearRect(0, 0, 140, 140);
         context1.beginPath();
-        context1.arc(cw, ch, 60, 0, 2 * Math.PI, false);
+        context1.arc(cw, ch, 85, 0, 2 * Math.PI, false);
         context1.fill();
         context1.strokeStyle = '#FFF';
         context1.stroke();
